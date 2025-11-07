@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEMANTH KUMAR | ML & Flutter Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="tech-loader">
+            <div class="loader-core">
+                <!-- AI Brain Animation -->
+                <div class="ai-brain">
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="synapse"></div>
+                    <div class="synapse"></div>
+                    <div class="synapse"></div>
+                </div>
+                
+                <!-- Flutter Code Orbit -->
+                <div class="code-orbit">
+                    <div class="orbit-ring"></div>
+                    <div class="code-snippet">
+                        <span class="code-char">c</span>
+                        <span class="code-char">l</span>
+                        <span class="code-char">a</span>
+                        <span class="code-char">s</span>
+                        <span class="code-char">s</span>
+                    </div>
+                    <div class="code-snippet">
+                        <span class="code-char">w</span>
+                        <span class="code-char">i</span>
+                        <span class="code-char">d</span>
+                        <span class="code-char">g</span>
+                        <span class="code-char">e</span>
+                        <span class="code-char">t</span>
+                    </div>
+                </div>
+                
+                <!-- Central Logo -->
+                <div class="central-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-brain"></i>
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Loading Text -->
+            <div class="loading-content">
+                <div class="loading-title">
+                    <span class="title-char">H</span>
+                    <span class="title-char">E</span>
+                    <span class="title-char">M</span>
+                    <span class="title-char">A</span>
+                    <span class="title-char">N</span>
+                    <span class="title-char">T</span>
+                    <span class="title-char">H</span>
+                    <span class="title-char">&nbsp;</span>
+                    <span class="title-char">K</span>
+                    <span class="title-char">U</span>
+                    <span class="title-char">M</span>
+                    <span class="title-char">A</span>
+                    <span class="title-char">R</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="particles-container" id="particles-js"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-glitch">HEMANTH KUMAR</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link magnetic">Home</a>
+                <a href="#about" class="nav-link magnetic">About</a>
+                <a href="#skills" class="nav-link magnetic">Skills</a>
+                <a href="#portfolio" class="nav-link magnetic">Projects</a>
+                <a href="#contact" class="nav-link magnetic">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="animated-badge">
+                    <span>🚀 Available for Freelance</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-word word-1">Machine</span>
+                    <span class="title-word word-2">Learning</span>
+                    <span class="title-word word-3">&</span>
+                    <span class="title-word word-4">Flutter</span>
+                    <span class="title-word word-5">Developer</span>
+                </h1>
+                <p class="hero-subtitle">I create intelligent solutions and beautiful cross-platform applications</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary magnetic">
+                        <span>View Projects</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary magnetic">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <div class="tech-item" data-tooltip="Python">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="tech-item" data-tooltip="TensorFlow">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tech-item" data-tooltip="Flutter">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="tech-item" data-tooltip="React">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="tech-item" data-tooltip="Firebase">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="animated-phone">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="app-interface">
+                                <div class="status-bar">
+                                    <span class="time">9:41</span>
+                                    <div class="status-icons">
+                                        <i class="fas fa-signal"></i>
+                                        <i class="fas fa-wifi"></i>
+                                        <i class="fas fa-battery-full"></i>
+                                    </div>
+                                </div>
+                                <div class="app-content">
+                                    <div class="ai-chat">
+                                        <div class="message ai-message">
+                                            <div class="message-avatar">
+                                                <i class="fas fa-robot"></i>
+                                            </div>
+                                            <div class="message-content">
+                                                Hello! I'm your AI assistant
+                                            </div>
+                                        </div>
+                                        <div class="message user-message">
+                                            <div class="message-content">
+                                                What type of services you provide?
+                                            </div>
+                                            <div class="message-avatar">
+                                                <i class="fas fa-user"></i>
+                                            </div>
+                                        </div>
+                                        <div class="message ai-message typing">
+                                            <div class="message-avatar">
+                                                <i class="fas fa-robot"></i>
+                                            </div>
+                                            <div class="message-content">
+                                                <div class="typing-indicator">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-shadow"></div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="floating-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="floating-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://media.istockphoto.com/id/1219473617/vector/young-male-character-writing-code-on-a-desktop-computer-working-from-home-millennials-at-work.jpg?s=612x612&w=0&k=20&c=9KrYfX8M5lFqpUN2y5Pklac_XebWqnI0bmDkMB6NLhU=" alt="HEMANTH KUMAR - ML & Flutter Developer" class="profile-image">
+                        <div class="pulse-ring"></div>
+                        <div class="floating-element element-1">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="floating-element element-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-element element-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Transforming Ideas into Intelligent Solutions</h3>
+                    <p>A recent Computer Science graduate with hands-on experience building projects using Python, Flutter, and Machine Learning. Eager to apply my technical skills and passion for development to a full-time role</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="20">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="10">0</div>
+                            <div class="stat-label">ML Models</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="4">0</div>
+                            <div class="stat-label">Apps Published</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Centered Education Timeline -->
+            <div class="centered-timeline">
+                <h4 class="timeline-title">Education Journey</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Freelancing</h5>
+                            <span class="timeline-date">2024 - Present</span>
+                            <p class="timeline-desc">Machine Learning & Flutter Development</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Mahindra Comviva</h5>
+                            <span class="timeline-date">Jul 2023 - Aug 2023</span>
+                            <p class="timeline-desc">AI/ML Training (Team Leader)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Aduke Software</h5>
+                            <span class="timeline-date">Jun 2022 - Aug 2022</span>
+                            <p class="timeline-desc">Web Development (Internship)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Siksha 'O' Anusandhan University</h5>
+                            <span class="timeline-date">2020 - 2024</span>
+                            <p class="timeline-desc">B.Tech in Computer Science & Engineering</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Sri Chaitanya Junior College</h5>
+                            <span class="timeline-date">2018 - 2020</span>
+                            <p class="timeline-desc">Intermediate Education (12th Grade)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5>Sri Bhavana Vidya Niketan</h5>
+                            <span class="timeline-date">2017 - 2018</span>
+                            <p class="timeline-desc">High School Education (10th Grade)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="programming">Programming</button>
+                    <button class="tab-btn" data-category="data">Data & ML</button>
+                    <button class="tab-btn" data-category="web">Web & Mobile</button>
+                </div>
+                
+                <div class="skills-content">
+                    <!-- Programming Skills -->
+                    <div class="skills-grid active" id="programming-skills">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h3>Python</h3>
+                            <p>Programming & Scripting</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-c"></i>
+                            </div>
+                            <h3>C</h3>
+                            <p>Programming & Scripting</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>SQL</h3>
+                            <p>Database Management</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Dart</h3>
+                            <p>Flutter Development</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                         <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>API</h3>
+                            <p>API Integration</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Data & ML Skills -->
+                    <div class="skills-grid" id="data-skills">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>Machine Learning</h3>
+                            <p>ML Algorithms & Models</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h3>Data Visualization</h3>
+                            <p>Analysis & Reporting</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                          <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h3>Data Modelling</h3>
+                            <p>Cleaning & Model Preparing</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3>Power BI</h3>
+                            <p>Business Intelligence</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web & Mobile Skills -->
+                    <div class="skills-grid" id="web-skills">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3>HTML</h3>
+                            <p>Web Structure</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h3>CSS</h3>
+                            <p>Web Styling</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h3>JavaScript</h3>
+                            <p>Web Interactivity</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Flutter</h3>
+                            <p>Cross-Platform Apps</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-stream"></i>
+                            </div>
+                            <h3>Streamlit</h3>
+                            <p>Data Apps</p>
+                            <div class="skill-level">
+                                <div class="level-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning & Python</button>
+                <button class="filter-btn" data-filter="flutter">Flutter Apps</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- ML Project 1 -->
+                <div class="portfolio-item visible" data-category="ml">
+                    <div class="portfolio-image">
+<img src="https://images.unsplash.com/photo-1719464521902-4dc9595b182d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="stock crypto">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Stock & Crypto Price Prediction Project</h3>
+                        <p>A comprehensive machine learning application for predicting stock and cryptocurrency prices using multiple AI models with an interactive Streamlit interface.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Neural Networks</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML Project 2 -->
+                <div class="portfolio-item visible" data-category="ml">
+                    <div class="portfolio-image">
+<img src="https://www.tidio.com/wp-content/uploads/suspicious-activities-alerts-1-700x491.png" alt="financial chatbot">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>FINI - Financial AI Assistant Project</h3>
+                        <p>FINI is an intelligent financial chatbot built with Streamlit that provides personalized financial assistance through multiple interactive modes and PDF document analysis capabilities.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>HuggingChat</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ML Project 3 -->
+                <div class="portfolio-item visible" data-category="ml">
+                    <div class="portfolio-image">
+<img src="https://www.mindinventory.com/blog/wp-content/uploads/2021/06/expense-tracking-app-features.webp" alt="Expense tracker">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Expenses Tracker</h3>
+                        <p>A comprehensive personal finance management application that helps users track expenses, manage budgets, analyze spending patterns, and achieve financial goals with intuitive visualizations and smart insights.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>Data Base</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flutter Project 1 -->
+                <div class="portfolio-item visible" data-category="flutter">
+                    <div class="portfolio-image">
+<img src="https://d2ms8rpfqc4h24.cloudfront.net/leveraging_ai_powered_virtual_health_assistants_for_enhanced_patient_education_13dabc22ce.jpg" alt="medical assistant app">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Flutter Medical Assistant App</h3>
+                        <p>A comprehensive Flutter-based medical assistant application that provides AI-powered health guidance, emergency support, and personalized medical assistance through an intuitive mobile interface.</p>
+                        <div class="tech-tags">
+                            <span>Flutter</span>
+                            <span>HTT Cliet</span>
+                            <span>Groq API</span>
+                            <span>Dart</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flutter Project 2 -->
+                <div class="portfolio-item visible" data-category="flutter">
+                    <div class="portfolio-image">
+<img src="https://play-lh.googleusercontent.com/10hBDd1uZw9BZ_8kWXKF3kF7FuKz12-rIUHLA9E1Z8PxyBR799Ry592yDt1IZ68bzE3H" alt="stock app">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Stock and Crypto App</h3>
+                        <p>A Flutter mobile application that provides real-time stock and cryptocurrency market data, price tracking, and financial analytics with interactive charts.</p>
+                        <div class="tech-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flutter Project 3 -->
+                <div class="portfolio-item visible" data-category="flutter">
+                    <div class="portfolio-image">
+<img src="https://img.freepik.com/free-vector/inspirational-quote-watercolour-background_1048-18831.jpg?semt=ais_hybrid&w=740&q=80" alt="quotes">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Qoutes App</h3>
+                        <p>An inspirational quotes application that provides daily motivation, categorized quotes, and personalized collections with beautiful typography and sharing capabilities.</p>
+                        <div class="tech-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Project 1 -->
+                <div class="portfolio-item visible" data-category="web">
+                    <div class="portfolio-image">
+<img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1024" alt="weather app">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Weather APP</h3>
+                        <p>A responsive, real-time weather application that provides current weather conditions, forecasts, and detailed meteorological data with an intuitive user interface.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Java Script</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Project 2 -->
+                <div class="portfolio-item visible" data-category="web">
+                    <div class="portfolio-image">
+<img src="https://bootstrapmade.com/content/templatefiles/Yummy/Yummy-bootstrap-website-template.webp" alt="resto">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Resto Website</h3>
+                        <p>A modern, responsive restaurant website showcasing the dining experience, menu, reservations, and location with an elegant culinary-focused design.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Java Script</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Project 3 -->
+                <div class="portfolio-item visible" data-category="web">
+                    <div class="portfolio-image">
+<img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="portfolio ">                        <div class="portfolio-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/HemanthSingavarapu" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>A modern, professional portfolio website showcasing skills, projects, and experience with interactive elements and smooth animations.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS3</span>
+                            <span>Java Script </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item hover-lift">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hemanthsingavarapu1428@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item hover-lift">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 9966282523</p>
+                    </div>
+                </div>
+                <div class="contact-item hover-lift">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" name="from_name" placeholder="Your Name" required class="form-input" id="from_name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="from_email" placeholder="Your Email" required class="form-input" id="from_email">
+                </div>
+                <div class="form-group">
+                    <select name="project_type" class="form-input" required id="project_type">
+                        <option value="">Project Type</option>
+                        <option value="ml">Machine Learning</option>
+                        <option value="flutter">Flutter App</option>
+                        <option value="web">Web Development</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required class="form-input" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div id="form-message" style="display: none; margin-top: 1rem; padding: 0.5rem; border-radius: 5px; text-align: center;"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3>Ready to start your project?</h3>
+                    <p>Let's discuss how I can help bring your ideas to life</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/HemanthSingavarapu" class="social-link" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="Kaggle">
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 HEMANTH KUMAR. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
